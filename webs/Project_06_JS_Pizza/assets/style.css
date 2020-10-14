@@ -1,0 +1,97 @@
+body {
+  background-image: url(../image/bg-01.png);
+  background-repeat: repeat;
+}
+
+body .jumbotron {
+  background-image: url(../image/banner-menu.jpg);
+  height: 246px;
+}
+
+.card {
+  border: 1px solid #df600f;
+  margin-bottom: 30px;
+  overflow: hidden;
+  background-color: #fff8ec;
+}
+
+.card .card-body {
+  background-color: #fff8ec;
+}
+
+.card .card-body .card-title {
+  font-size: 20px;
+  color: #007642;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.card .card-body .food {
+  color: #df600f;
+}
+
+.card .card-body .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .card-body .price span {
+  background-color: #007642;
+  color: white;
+  border-radius: 50%;
+  font-size: 15px;
+  text-align: center;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.card .card-body .price .big_price {
+  margin-right: 80px;
+  margin-left: 6px;
+}
+
+.card .card-body .price .small_price {
+  margin-left: 6px;
+}
+
+.card .card-body .btn {
+  background-color: #E60012;
+  color: white;
+  border: 0px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 8px 8px 15px #808080;
+          box-shadow: 8px 8px 15px #808080;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+}
+
+.headshot {
+  overflow: hidden;
+}
+
+.card:hover img {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.card:not(:hover) img {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.card:hover .card-title {
+  color: #007642;
+  background-color: #fff8ec !important;
+}
+/*# sourceMappingURL=style.css.map */

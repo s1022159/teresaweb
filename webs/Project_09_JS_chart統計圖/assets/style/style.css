@@ -1,0 +1,23 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+.jumbotron h1 {
+  text-align: center;
+}
+
+.loading_error {
+  position: relative;
+  margin-top: 100px;
+}
+
+.loading_error span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sameformat {
+  width: 960px;
+  margin: auto;
+  position: relative;
+}
+
+.sameformat .toyota-video {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  /* z-index: 1; */
+  position: relative;
+  margin-top: 100px;
+}
+
+.sameformat .color-block {
+  width: 439px;
+  height: 290px;
+  bottom: 300px;
+  right: 0;
+  background-color: #eeeeee;
+  position: absolute;
+  z-index: -1;
+}
+
+.sameformat .toyota-info {
+  display: block;
+  width: 355px;
+}
+
+.sameformat .toyota-info .title-name {
+  background-color: 206;
+}
+
+.sameformat .toyota-info .title-name p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 100px;
+  line-height: 0.8;
+}
+
+.toyota-info p {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+}
+
+.title-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

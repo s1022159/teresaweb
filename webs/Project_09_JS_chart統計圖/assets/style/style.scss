@@ -1,0 +1,21 @@
+* {
+    font-family: 微軟正黑體;
+}
+.jumbotron{
+    h1{
+        text-align: center;
+    }
+}
+.loading_error {
+    position: relative;
+    margin-top: 100px;
+
+    span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); //移動自己,讓自己置中（x軸,y軸）
+
+        font-size: 50px;
+    }
+}
