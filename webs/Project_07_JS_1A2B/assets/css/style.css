@@ -1,0 +1,22 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+.btn {
+  width: 200px;
+  border: 3px solid #dad1d1;
+}
+
+.btn ~ .btn {
+  border-left: 0px;
+}
+
+.input-group {
+  height: 60px;
+}
+
+.input-group .form-control {
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */

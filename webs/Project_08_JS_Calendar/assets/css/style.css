@@ -1,0 +1,23 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+.wrap {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrap .tr {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  background-color: palegreen;
+  font-size: 50px;
+  border: 5px solid #ff1122;
+}
+/*# sourceMappingURL=style.css.map */

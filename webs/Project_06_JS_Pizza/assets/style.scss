@@ -1,0 +1,90 @@
+body {
+    background-image: url(../image/bg-01.png);
+    background-repeat: repeat;
+
+    .jumbotron {
+        background-image: url(../image/banner-menu.jpg);
+        height: 246px;
+    }
+}
+
+.card {
+
+    border: 1px solid #df600f;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: #fff8ec;
+
+    .card-body {
+        background-color: #fff8ec;
+
+        .card-title {
+            font-size: 20px;
+            color: #007642;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .food {
+            color: #df600f;
+        }
+
+        .price {
+            display: flex;
+
+            // align-items: center;
+            // align-content: center;
+            span {
+                background-color: #007642;
+                color: white;
+                border-radius: 50%;
+                font-size: 15px;
+                text-align: center;
+                height: 1.5em;
+                width: 1.5em;
+            }
+
+            .big_price {
+                margin-right: 80px;
+                margin-left: 6px;
+            }
+
+            .small_price {
+                margin-left: 6px;
+            }
+        }
+
+        .btn {
+            background-color: #E60012;
+            color: white;
+            border: 0px;
+        }
+    }
+
+    &:hover {
+        box-shadow: 8px 8px 15px #808080;
+        transform: translate(5px, 5px);
+    }
+}
+
+.headshot {
+    overflow: hidden;
+}
+
+
+.card:hover img {
+    transform: scale(1.07);
+    transition: transform 0.4s;
+}
+
+.card:not(:hover) img {
+    transform: scale(1, 1);
+    transition: transform 0.3s;
+}
+
+
+
+.card:hover .card-title {
+    color: #007642;
+    background-color: #fff8ec !important;
+}

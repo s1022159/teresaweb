@@ -1,0 +1,16 @@
+*{
+    font-family: 微軟正黑體;
+}
+.wrap{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    .tr{
+        width: 180px;
+        height: 180px;
+        margin: 10px;
+        background-color: palegreen;
+        font-size: 50px;
+        border: 5px solid #ff1122;
+    }
+}
